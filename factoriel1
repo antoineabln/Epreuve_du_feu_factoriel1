@@ -1,0 +1,18 @@
+let nombre = 5; 
+
+const factoriel = (nombre)=>{
+  
+  let result = 0;
+  
+  if(nombre === 1){
+    
+    return 1;
+    
+  }else {
+    
+    return nombre * factoriel(nombre-1);
+  }
+}
+
+
+console.log(factoriel(nombre));
